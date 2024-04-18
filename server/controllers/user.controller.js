@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User } = require("../models");
 
 module.exports.createUser = async (req, res, next) => {
   try {
@@ -54,7 +54,7 @@ module.exports.deleteUser = async (req, res, next) => {
     const {
       params: { userId },
     } = req;
-    
+
     const user = await User.findByIdAndDelete(userId);
 
     res.status(200).send({ data: user });
