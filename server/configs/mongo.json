@@ -1,1 +1,3 @@
-"mongodb":"localhost:5000/chatApp_db";
+{
+  "CONNECTION_STRING": "mongodb://localhost:27017/chatDB"
+}
