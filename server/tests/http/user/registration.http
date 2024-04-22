@@ -1,0 +1,12 @@
+POST http://localhost:5000/users
+
+Content-Type :application/json 
+
+{
+  "firstName": "Test",
+  "lastName": "Testenko",
+  "email": "test1@mail.com",
+  "password": "admin",
+  "passwordRepeat": "admin",
+  "isMale": true
+}

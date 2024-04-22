@@ -1,6 +1,6 @@
 const express = require('express');
 const rootRouter = require('./routers');
-// const { errorHandler } = require('./middlewares/error/basic');
+const { errorHandler } = require('./middlewares/error/basic');
 
 const app = express();
 
